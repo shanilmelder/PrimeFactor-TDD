@@ -12,6 +12,7 @@ namespace PrimeFactor_TDD
     {
         private List<int> List(params int[] numbers)
         {
+
             var newNumbers = new List<int>();
             foreach (var n in numbers)
             {
