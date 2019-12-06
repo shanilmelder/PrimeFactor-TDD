@@ -67,7 +67,6 @@ namespace PrimeFactor_TDD
         public void TestSeven()
         {
             Assert.That(PrimeFactor.Genarate(7), Is.EqualTo(List(7 )));
-
         }
 
         [Test]
