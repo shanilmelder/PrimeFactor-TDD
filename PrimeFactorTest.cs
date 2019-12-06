@@ -39,7 +39,6 @@ namespace PrimeFactor_TDD
         public void TesThree()
         {
             Assert.That(PrimeFactor.Genarate(3), Is.EqualTo(List( 3 )));
-
         }
 
         [Test]
