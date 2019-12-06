@@ -88,7 +88,6 @@ namespace PrimeFactor_TDD
         public void TestMain()
         {
             Assert.That(PrimeFactor.Genarate(84), Is.EqualTo(List(2, 2, 3, 7)));
-
         }
     }
 }
