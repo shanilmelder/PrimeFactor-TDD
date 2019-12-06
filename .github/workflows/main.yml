@@ -13,4 +13,5 @@ jobs:
       uses: warrenbuckley/Setup-MSBuild@v1
 
     - name: MSBuild
-      run: msbuild --configuration Release
+      working-directory: .
+      run: msbuild PrimeFactor-TDD.csproj
